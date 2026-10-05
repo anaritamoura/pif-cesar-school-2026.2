@@ -119,7 +119,7 @@ Valor final de a = 13, b = 12, c = 10.
 
 Questão 05. Avaliação de Expressões Lógicas e Relacionais — Determine o resultado lógico (1 para verdadeiro, 0 para falso) de cada uma das expressões relacionais e lógicas a seguir, assumindo que as variáveis foram inicializadas como: int i = 1, j = 2, k = 3, n = 2; float x = 3.3, y = 4.4;. Consulte a tabela de precedência do Capítulo 2 de Viviane.
 
-int i = 1, j = 2, k = 3, n = 2;]
+int i = 1, j = 2, k = 3, n = 2;
 float x = 3.3, y = 4.4;
 
 a) i < j + 3 => Resultado: Verdadeiro
