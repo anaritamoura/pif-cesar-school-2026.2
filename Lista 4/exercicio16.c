@@ -17,7 +17,7 @@ int main() {
     printf("Digite a distância percorrida: ");
     scanf("%f", &distancia);
 
-    printf("Digite a quantidade de litros de gasolina conslumidos: ");
+    printf("Digite a quantidade de litros de gasolina consumidos: ");
     scanf("%f", &litros);
 
     consumo = distancia / litros;
