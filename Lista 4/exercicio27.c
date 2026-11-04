@@ -7,3 +7,33 @@ leia o número de horas inteiras que o carro permaneceu no local e calcule o val
 Exiba o tempo total e o valor final cobrado.*/
 
 
+#include <stdio.h>
+#include <windows.h>
+
+int main() {
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+
+    int horas, horas_progressao;
+    float valor_total;
+
+    printf("Insira a quantidade de horas de permanência: ");
+    scanf("%d", &horas);
+
+    if (horas <= 0) {
+        printf("Quantidade de horas inválida.\n");
+    } else if (horas <= 2) {
+        valor_total = horas * 2;
+    } else if (horas <= 4) {
+        horas_progressao = horas - 2;
+        valor_total = 4 + (horas_progressao * 2.50);
+    } else {
+        horas_progressao = horas - 4;
+        valor_total = 9 + (horas_progressao * 3);
+    }
+
+    printf("Tempo total: %d\nValor total: R$%.2f\n", horas, valor_total);
+
+    return 0;
+
+}
